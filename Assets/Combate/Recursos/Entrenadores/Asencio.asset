@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d04b6cdf35551a4d96567311b717fb0, type: 3}
+  m_Name: Asencio
+  m_EditorClassIdentifier: 
+  name: Asencio
+  descripcion: Soy yo
+  frontSprite: {fileID: 1335188605, guid: 194f3387eca839543b44d12d223783c4, type: 3}
+  backSprite: {fileID: 21300000, guid: cdf36294b5f2c7a49938eadc847cabd7, type: 3}
+  tipo1: 2
+  maxVida: 56
+  ataque: 60
+  defensa: 48
+  spAtaque: 49
+  spDefensa: 48
+  velocidad: 70
+  learnableMovesEntrenador:
+  - moveEntrenador: {fileID: 11400000, guid: 8021808d0a32d69418b0d09810d99111, type: 2}
+    levelEnt: 3
+  - moveEntrenador: {fileID: 11400000, guid: 1fe39eae6fe47524e889f1bc243683ab, type: 2}
+    levelEnt: 5
